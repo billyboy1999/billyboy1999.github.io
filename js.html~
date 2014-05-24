@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Rock Paper Scissors
+</title
+
+</head>
+
+<body>
+<script type=text/javascript>
+function rps() {
+    var output=document.getElementById("output");
+    var userChoice=document.getElementById("r_p_s");
+    var computerChoice = Math.random();
+    output.innerHTML="Test";
+    if (computerChoice <= 0.33) {computerChoice="R";}
+    else if (computerChoice <= 0.66) {computerChoice="P";}
+    else {computerChoice="S";}
+    console.log(userChoice.value, computerChoice)
+    output.innerHTML = compare(userChoice.value, computerChoice);
+    alert(compare(userChoice.value, computerChoice);}
+
+var compare=function(p,c) {
+    if(p===c){return("The result is a tie!")}
+    if(p==="P"){
+        if(c==="R"){return("You win!")}
+        else{return("You lose!")}}
+    if(p==="R"){
+        if(c==="S"){return("You win!")}
+        else{return("You lose!")}}
+    if(p==="S"){
+        if(c==="P"){return("You win!")}
+        else{return("You lose!")}}};
+</script>
+
+    <h1>Rock Paper Scissors</h1>
+    <form action="test" id="input">
+        <select id="r_p_s">
+        <option value="R">Rock</option>
+        <option value="P">Paper</option>
+        <option value="S">Scissors</option>
+        </select>
+    </form>
+    <button onclick="rps()">Click</button>
+    <div id="output">Results will be here.</div>
+
+</body>
+</html>
