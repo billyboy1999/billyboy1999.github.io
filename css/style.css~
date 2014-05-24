@@ -1,5 +1,5 @@
 h1 {
-    font-size: 40px;
+    font-size: 64px;
     text-align: center;
     margin: 0;
     padding: 5px;
@@ -7,6 +7,12 @@ h1 {
     border-width: 0px;
     border-bottom-width: 2px;
     border-color: navy;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -30,4 +36,9 @@ form {
     margin-left: 30%;
     margin-right: 30%;
     background-color: white;
+}
+
+ul {
+    margin-top: 50px;
+    font-size: 18pt;
 }
