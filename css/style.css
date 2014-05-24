@@ -2,8 +2,10 @@ h1 {
     font-size: 40px;
     text-align: center;
     margin: 0;
+    padding: 5px;
     border-style: solid;
-    border-width: 5px;
+    border-width: 0px;
+    border-bottom-width: 2px;
     border-color: navy;
 }
 
@@ -23,7 +25,8 @@ form {
     height: 300px;
     width: 40%;
     text-align: center;
-    vertical-align: middle;
+    line-height: 280px;
+    font-size: 32px;
     margin-left: 30%;
     margin-right: 30%;
     background-color: white;

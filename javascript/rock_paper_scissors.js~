@@ -8,7 +8,7 @@ function rps() {
     document.getElementById("output").innerHTML = compare(userChoice.value, computerChoice)};
 
 var compare=function(p,c) {
-    if(p===c){return("It's a tie!")}
+    if(p===c){return("The result is a tie!")}
     if(p==="P"){
         if(c==="R"){return("You win!")}
         else{return("You lose!")}}
