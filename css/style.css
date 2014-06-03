@@ -10,7 +10,6 @@ h1 {
 }
 
 img {
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,20 +24,52 @@ form {
 }
 
 #output {
-    border-width: 3px;
-    border-color: black;
-    border-style: solid;
-    height: 300px;
-    width: 40%;
-    text-align: center;
-    line-height: 280px;
+    height: 32px;
+	text-align:center;
+    width: 300px;
     font-size: 32px;
-    margin-left: 30%;
-    margin-right: 30%;
-    background-color: white;
+	margin: 10px;
+	background-color: white;
+	padding: 10px;
+
+}
+
+#left, #right, #output {
+	display:inline-block;
+}
+
+div {
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
 }
 
 ul {
     margin-top: 50px;
     font-size: 18pt;
+}
+
+.picture {
+	height: 324px;
+	width: 324px;
+	margin: 10px;
+	background-color: white;
+}
+
+.px {
+	width: 300px;
+	display: inherit;
+	height: 300px;
+	margin: 0;
+	padding: 0;
+	border-color: transparent;
+}
+
+.invis {
+	margin-left: auto;
+	margin-right: auto;
+	height: 304;
+	width: 1048px;
+	background-color: transparent;
+	border-color: transparent;
 }
